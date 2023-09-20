@@ -1,0 +1,9 @@
+{
+    "[python]": {
+        "editor.rulers": [88],
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.black": true
+        }
+    }
+}
