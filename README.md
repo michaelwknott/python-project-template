@@ -1,3 +1,9 @@
+# Using the Python Project Template
+1. Requires pip-tools to compile the requirements.in and requirements-dev.in file. This can be installed globally using [pipx](https://pipx.pypa.io/stable/) or directly installing pip-tools into your virtual environment using `python -m pip install pip-tools`
+1. Once development dependencies are installed in your virtual environment, update pre-commit to use the latest hooks using the command `pre-commit autoupdate`
+1. Install pre-commit hooks using the command `pre-commit install`
+1. Change the headings and descriptions below to fit your project needs
+
 # python-project-template
 A starter repo for a Python app.
 
